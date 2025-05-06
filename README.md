@@ -22,7 +22,7 @@ The annotations include the following facial components:
 | `eyebrow` | Left and right eyebrows |
 | `glasses` | Eyeglasses (if present) |
 | `logo`    | Brand logos (if visible on face) |
-| `nostril` | Left and right nostrils |
+| `nostril` | Left and right nostrils (if present) |
 
 
 
