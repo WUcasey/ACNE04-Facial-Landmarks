@@ -5,17 +5,49 @@
 
 ## 📂 Dataset Description
 
-This repository contains **facial landmark annotations** and (optional) **acne mask annotations** for facial images in the **ACNE04** dataset.  
-The dataset was created to support **acne detection**, **facial skin analysis**, and **medical image segmentation** tasks.
+This repository contains **facial landmark annotations** and **facial mask** for facial images in the **ACNE04** dataset.  
+The dataset was created to support **facial skin analysis**, and **medical image segmentation** tasks.
 
 > ⚠️ **Note**: The original ACNE04 images are **not included** in this repository due to licensing restrictions.  
 Please refer to the [original ACNE04 dataset paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Wu_Joint_Acne_Image_Grading_and_Counting_via_Label_Distribution_Learning_ICCV_2019_paper.html) and request access from the authors if needed.
 
 ## 🗂️ Dataset Structure
+The repository contains facial landmark annotations and facial masks derived from the ACNE04 dataset (note: original ACNE04 images are **not included**).
+
+ACNE04_Facial_Landmarks/
+│
+├── annotations/ # Facial landmark annotations (JSON)
+│ ├── levle0_0.json
+│ ├── levle0_1.json
+│ └── ...
+│
+├── masks/ 
+│ ├── levle0_0.jpg
+│ ├── levle0_1.jpg
+│ └── ...
+└── README.md
+
+### 📑 Label Categories
+
+The annotations include the following facial components:
+
+| Label     | Description             |
+|-----------|-------------------------|
+| `eye`     | Left and right eyes     |
+| `lips`    | Upper and lower lips    |
+| `eyebrow` | Left and right eyebrows |
+| `glasses` | Eyeglasses (if present) |
+| `logo`    | Brand logos (if visible on face) |
+| `nostril` | Left and right nostrils |
+
+
+
+## ⚙️ Usage
 
 git clone https://github.com/YOUR_USERNAME/ACNE04-Facial-Landmarks.git
 cd ACNE04-Facial-Landmarks
 
+## 📖 Citation
 @misc{acne04_facial_landmarks,
   author = {An-Chieh Wu},
   title = {Facial landmark annotations for ACNE04 dataset},
