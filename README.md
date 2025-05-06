@@ -11,22 +11,6 @@ The dataset was created to support **facial skin analysis**, and **medical image
 > ⚠️ **Note**: The original ACNE04 images are **not included** in this repository due to licensing restrictions.  
 Please refer to the [original ACNE04 dataset paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Wu_Joint_Acne_Image_Grading_and_Counting_via_Label_Distribution_Learning_ICCV_2019_paper.html) and request access from the authors if needed.
 
-## 🗂️ Dataset Structure
-The repository contains facial landmark annotations and facial masks derived from the ACNE04 dataset (note: original ACNE04 images are **not included**).
-
-ACNE04_Facial_Landmarks/
-│
-├── annotations/ # Facial landmark annotations (JSON)
-│ ├── levle0_0.json
-│ ├── levle0_1.json
-│ └── ...
-│
-├── masks/ 
-│ ├── levle0_0.jpg
-│ ├── levle0_1.jpg
-│ └── ...
-└── README.md
-
 ### 📑 Label Categories
 
 The annotations include the following facial components:
