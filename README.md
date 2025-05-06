@@ -28,7 +28,7 @@ The annotations include the following facial components:
 
 ## ⚙️ Usage
 
-git clone https://github.com/YOUR_USERNAME/ACNE04-Facial-Landmarks.git
+git clone https://github.com/WUcasey/ACNE04-Facial-Landmarks.git
 cd ACNE04-Facial-Landmarks
 
 ## 📖 Citation
